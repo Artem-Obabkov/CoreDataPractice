@@ -13,6 +13,7 @@ class TableView: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var addButton: UIBarButtonItem!
     
+    // Массив основной
     var cars = [Car]()
     
     
